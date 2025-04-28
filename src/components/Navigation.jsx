@@ -1,9 +1,10 @@
+import img from "../../public/images/brand_logo.png"
 const Navigation = () =>{
     return(
         <div>
         <nav className="container">
             <div className="logo">
-                <img src="/images/brand_logo.png" alt="brand"/>
+                <img src={img} alt="brand"/>
             </div>
             <ul>
                 <li href="#">Menu</li>
